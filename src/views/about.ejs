@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- se incluye un titulo del backend -->
+    <title><%= title %></title>
+    <!-- aca se incluye css -->
+    <%- include('partials/head') %>
+  </head>
+  <body>
+    <!-- se agrega la barra de navegacion -->
+    <%- include('partials/navigation')%>
+    <!-- Se agrega contenido al about con un lorem300 -->
+    <!-- se agrega una clase a main de vh100 para usar la pantalla al maximo y container para centrar el contenido// un pt-2 para separar el contenido de arriba // text-center para centrar el texto //
+    lo demas es para justificar al centro todo el contenido-->
+    <main class="vh-100 container pt-2 text-center d-flex justify-content-center align-items-center">
+      <section>
+        <h1 class="display-1">About</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          quisquam corporis, quia, atque quibusdam consequatur molestias
+          praesentium sequi eligendi eius ut neque dicta iste, natus minus optio
+          iusto fugiat iure tempore nulla odit autem aut voluptates? Iste ullam
+          autem expedita ducimus et doloribus corrupti. Deleniti qui iste esse
+          minus quia? Voluptatibus ab nihil, nobis earum illo optio incidunt
+          laborum, beatae dolore delectus, unde voluptatum quo? Quod dolor
+          perferendis vero ipsum aperiam hic, illum magni ab nostrum, commodi
+          nisi eos voluptatum nulla eaque qui excepturi repellendus maiores,
+          omnis vitae natus ullam quibusdam labore architecto laudantium! Dolor
+          harum laudantium cupiditate. Veritatis culpa ullam consectetur magni,
+          assumenda nam possimus id fugit nulla numquam quia, repellat magnam.
+          Maxime nam voluptatem aliquid tempore unde animi eligendi, quasi
+          commodi similique deleniti facere vel est mollitia laboriosam odio
+          magnam sint hic ab esse iusto modi ut cum! Nam in impedit, voluptate
+          pariatur sed repudiandae facere porro, nesciunt iusto libero veniam.
+          Nostrum iusto quo temporibus aut animi. Voluptas velit itaque
+          accusantium impedit laudantium dolore blanditiis, asperiores, ipsa
+          assumenda iure quaerat minus eius facilis laborum. Unde dolorum, quasi
+          illo saepe ipsa ullam magni sapiente itaque. Quibusdam hic saepe ipsam
+          consectetur obcaecati, a omnis aut illo porro explicabo, nesciunt
+          aspernatur doloremque nostrum minus. Perspiciatis quasi expedita eum
+          ipsa provident, fugit in eos rem animi adipisci quisquam laborum,
+          recusandae modi sequi similique esse quibusdam dolores hic, aliquid at
+          beatae quo. Rem esse perspiciatis nam ipsa, illo illum distinctio
+          eaque facere, odio delectus voluptatem deserunt beatae iure magnam?
+          Totam accusamus quibusdam minus commodi corrupti. Quisquam aliquam ad
+          praesentium totam velit fugit rem vitae incidunt sequi tempora
+          voluptatem a culpa labore perferendis itaque, facilis asperiores,
+          voluptatum mollitia doloribus cum fugiat. Iusto eius dolorum amet
+          nulla vero cupiditate laudantium corporis unde illo beatae, voluptatum
+          officiis! Unde ipsa est dolores veniam. Consequuntur eveniet molestias
+          ipsa.
+        </p>
+      </section>
+    </main>
+    <!-- se agrega como final el footer -->
+    <%- include('partials/footer')%>
+  </body>
+</html>

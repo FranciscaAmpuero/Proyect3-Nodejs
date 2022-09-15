@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- agregamos un titulo desde el Backend -->
+    <title><%= title %></title>
+    <!-- aca se incluye css -->
+    <%- include('partials/head') %>
+  </head>
+  <body>
+    <!-- incluimos los navegadores -->
+    <%- include('partials/navigation') %>
+    <!-- Agregamos contenido de main.css con una imagen -->
+    <!-- container centra el contenido / vh-100 baja el alto de la pantalla / d-flex justifica el flexbox / 
+        justify... centra el contenido justificado orizontalmente// align ... centra el contenido verticalmente -->
+    <header
+      class="container vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <!-- w-25 achica la imagen -->
+        <img src="/img/fazt.png" alt="" class="w-25" />
+        <!--  se agrega un h1 con las siguientes caracteristicas: display titulo grande // margen abajo de 5
+            text uppercase texto en mayusculas // fw-bold para que resalte-->
+        <h1 class="display-1 my-5 text-uppercase fw-bold">fazt</h1>
+        <a href="/about" class="btn btn-primary w-25">About</a>
+      </div>
+    </header>
+    <!-- incluimos un final -->
+    <%- include('partials/footer') %>
+  </body>
+</html>
